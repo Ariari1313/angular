@@ -1,0 +1,24 @@
+<div class="user-information">
+  <div class="information">
+    <h1>Your Information</h1>
+    <div class="detail" ng-if="Info.infoIsEmpty">
+      {{Info.infoExist}}
+      <p>FirstName: {{Info.firstName}}</p>
+      <p>LastName: {{Info.lastName}}</p>
+      <p>Email address : {{Info.mail}} </p>
+      <p>Phone Number : {{Info.phoneNum}}</p>
+      <p>Your Favourite Meal</p>
+      <div class="detail">
+        <menu-item menu-item="Info.favMeal">
+        </menu-item>
+      </div>
+    </div>
+  </div>
+  <div class="tosignup" ng-if="!(Info.infoIsEmpty)">
+    <p>Not Signed Up Yet.
+    </p>
+    <a ui-sref="public.signUp">
+      Sign up Now!
+    </a>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+*{
+  font-family: sans-serif;
+}
+
+a{
+  font-size: large;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+li a:hover{
+  font-size: x-large;
+}
