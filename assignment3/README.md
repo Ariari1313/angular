@@ -2,8 +2,6 @@ Module 3 Coding Assignment
 =======
 [Click here to SIGN UP for the ***Single Page Web Applications with AngularJS*** course on Coursera](https://www.coursera.org/learn/single-page-web-apps-with-angularjs). It's FREE!
 
-**Time to put all that knowledge to code!**
-
 ## Time to Complete
 It should take about 1 hour or less. (This is just an estimate. People's backgrounds differ, so for some people it will take longer to complete.)
 
